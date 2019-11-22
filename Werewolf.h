@@ -6,7 +6,7 @@ class Werewolf : public Enemy {
     public:
         // Constructor
         Werewolf(int x, int y) : Enemy(x, y) {};
-        Werewolf~()
+        ~Werewolf()
         {
             std::cout << "Werewolf destructed." << std::endl;
         };

@@ -4,7 +4,7 @@
 class Zombie : public Enemy {
     public:
         Zombie(int x, int y) : Enemy (x, y) {};
-        Zombie~()
+        ~Zombie()
         {
             std::cout << "Zombie destructed." << std::endl;
         };

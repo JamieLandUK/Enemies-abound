@@ -8,7 +8,7 @@ class Enemy {
     public:
         // Constructor
         Enemy(int x, int y) : x(x), y(y) {};
-        virtual Enemy~()
+        virtual ~Enemy()
         {
             std::cout << "Enemy destructed." << std::endl;
         }
